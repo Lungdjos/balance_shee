@@ -1,4 +1,15 @@
-/* general styling */
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    margin: -1px;
+}
 
 html {
     box-sizing: border-box;
@@ -8,22 +19,6 @@ body {
     font-family: sans-serif;
     color: #0a0a23;
 }
-
-span[class~="sr-only"] {
-    border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    white-space: nowrap;
-    position: absolute;
-    padding: 0;
-    margin: 1px;
-}
-
-
-/* table styling */
 
 h1 {
     max-width: 37.25rem;
@@ -38,7 +33,7 @@ h1 .flex {
 }
 
 h1 .flex span:first-of-type {
-    font-size: .7em;
+    font-size: 0.7em;
 }
 
 h1 .flex span:last-of-type {
@@ -49,15 +44,4 @@ section {
     max-width: 40rem;
     margin: 0 auto;
     border: 2px solid #d0d0d5;
-}
-
-#years {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: flex-end;
-    color: #fff;
-    background: #0a0a23;
-    margin: 0 -2px;
-    padding: .5rem calc(1.25rem + 2px) .5rem 0;
 }

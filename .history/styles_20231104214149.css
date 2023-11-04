@@ -58,6 +58,4 @@ section {
     justify-content: flex-end;
     color: #fff;
     background: #0a0a23;
-    margin: 0 -2px;
-    padding: .5rem calc(1.25rem + 2px) .5rem 0;
 }
