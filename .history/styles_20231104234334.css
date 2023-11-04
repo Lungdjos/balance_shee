@@ -150,6 +150,6 @@
             vertical-align: top;
         }
         
-        tr.data td:last-of-type {
+        tr.data td:last-of-type(td) {
             padding-right: .5rem;
         }
